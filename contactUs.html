@@ -1,0 +1,158 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Nihal's fan page..Contactus</title>
+		<script src = "js/jquery.js"></script>
+		<script type="text/javascript" src = "js/contact.js"></script>
+		<link rel = "stylesheet" href = "css/bootstrap.min.css">
+		<link rel = "stylesheet" href = "css/lumen-bootstrap.min.css">
+
+		<link rel = "stylesheet" href = "css/localcss.css">
+</head>
+<body>
+<div id = "page" >
+	<header class = "container">
+		<div id = "menu" class = "navbar navbar-default navbar-fixed-top">
+			<div class = "navbar-header">
+				<button class = "btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class = "glyphicon glyphicon-chevron-down"></span></button>
+				<div id = "logo">
+				<a href = '.'><h4>Nihal's</h4></a>
+			</div>
+		</div>
+			<div class = "navbar-collapse collapse">
+				<ul class = "nav navbar-nav navbar-right">
+					<li class = "nav active"><a href = "sampleweb.html">Home</a></li>
+					<li class = "nav"><a href= "about.html">About us</a></li>
+					<li class = "nav"><a href="contact.html">Contact us</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		
+	</header>
+
+	<section id = "body" class = "container">
+		
+		<div class= "row">
+			<form class = "form-horizontal">
+			<div class = "form-group">
+				<label for = "Name" class = "control-label col-md-2">First Name</label>
+				<div class = "col-md-8">
+				<input type = "text" name = "Name"
+						class = "form-control"
+						placeholder = "firstName"/>
+				</div>
+			</div>
+			<div class = "form-group">
+
+			<label for = "lastName" class = "control-label col-md-2">LastName</label>
+				<div class = "col-md-8">
+					<input type = "text" name = "lastName"
+					class = "form-control"
+							placeholder = "lastName"/>
+				</div>
+			</div>
+			<div class = "form-group">
+
+				<label for = "email" class = "control-label col-md-2">Email</label>
+				<div class = "col-md-8">
+					<div class = "input-group">
+						<span class = "input-group-addon">@</span>
+						<input type = "email" name = "email"
+						class = "form-control"
+								placeholder = "email"/>
+					</div>
+				</div>
+			</div>
+
+			<div class = "form-group">
+				<label class = "control-label col-md-2">Favorite</label>
+				<div class = "col-md-8">
+					<div class = "btn-group btn-group-sm" data-toggle = "buttons">
+						<label class = "btn btn-success"><input type = "radio">My First Year</label>
+						<label class = "btn btn-success"><input type = "radio">My Second Year</label>
+						<label class = "btn btn-success"><input type = "radio">My Third Year</label>
+						<div class = "btn-group btn-group-sm">
+							<button class = "btn btn-success" >other</button>
+							<button class = "btn btn-success" data-toggle = "dropdown"><span class = "caret"></span></button>
+							<ul class = "dropdown-menu">
+								<li><a href = "#" tabindex = "-1">blockplay</a></li>
+								<li><a href = "#" tabindex = "-1">Music</a></li>
+								<li class = "divider"></li>
+								<li class = "disabled"><a href = "#" tabindex = "-1">Gardening</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class = "form-group">
+
+				<label class = "control-label col-md-2">Reason</label>
+
+				<div class = "col-md-8">
+					<!--	<select class = "form-control">
+							<option>Adoration</option>
+							<option>Want to be friend</option>
+							<option>I am your cousin</option>
+							<option>Complaint</option>
+						</select>
+					-->
+					<div class = "dropdown">
+						<button class = "btn btn-success" id = "pickButton">PickOne</button>
+						<button class = "btn btn-success" data-toggle="dropdown"><span class="caret"></span></button>
+						<ul class = "dropdown-menu" id = "reasonDropdown">
+							<li><a hef = "#" tabindex = "-1"> Adoration</a></li>
+							<li><a hef = "#" tabindex = "-1"> WAnt to be friend</a></li>
+							<li><a hef = "#" tabindex = "-1"> I am your cousin</a></li>
+							<li><a hef = "#" tabindex = "-1"> Complaint</a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+			<div class = "form-group">
+				<label class = "control-label col-md-2">Message</label>
+				<div class = "col-md-8">
+					<textarea cols = "40" rows = "6" class = "form-control"></textarea>
+
+				</div>
+			</div>
+			<div class = "form-group">
+				<input type = "submit" value = "Submit" 
+				class = "btn btn-success"/>
+			</div>
+			</form>
+		</div>
+
+		<h3>Our Address</h3>
+			<div>
+				<address>Nihal Bojji <br/>
+				KrishnaNagar<br/>
+				Puttur<br/>
+				Chittoor<br/>
+				AndhraPradesh<br/>
+				India<br/>
+				<abbr title = "Phone">Ph:</abbr>
+				9440049691
+				</address>
+				<address>
+				<strong>Support:</strong>
+				<a href = "support@nihalsfansite.com"/>
+				</address>	
+			</div>	
+
+	</section>
+
+	<hr/>
+	<footer class = "container">
+		<P>Footer:sdfka uadhfakjshf siahfdkjsah fdkjsahdfushfshfdasfdhos</P>
+	</footer>
+</div>
+<script src = "js/bootstrap.min.js"></script>
+<script>
+	$(':text').css('border','2px,solid,red');
+</script>
+</body>
+</html>
+
